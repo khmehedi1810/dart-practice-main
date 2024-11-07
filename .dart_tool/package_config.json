@@ -2,10 +2,22 @@
   "configVersion": 2,
   "packages": [
     {
+      "name": "args",
+      "rootUri": "file:///C:/Users/Mehedi%20Hasan/AppData/Local/Pub/Cache/hosted/pub.dev/args-2.6.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.3"
+    },
+    {
       "name": "async",
       "rootUri": "file:///C:/Users/Mehedi%20Hasan/AppData/Local/Pub/Cache/hosted/pub.dev/async-2.11.0",
       "packageUri": "lib/",
       "languageVersion": "2.18"
+    },
+    {
+      "name": "chalkdart",
+      "rootUri": "file:///C:/Users/Mehedi%20Hasan/AppData/Local/Pub/Cache/hosted/pub.dev/chalkdart-2.2.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
     },
     {
       "name": "collection",
@@ -74,7 +86,7 @@
       "languageVersion": "3.2"
     }
   ],
-  "generated": "2024-10-14T16:22:59.391169Z",
+  "generated": "2024-11-07T16:51:45.931842Z",
   "generator": "pub",
   "generatorVersion": "3.5.2",
   "flutterRoot": "file:///D:/flutter",

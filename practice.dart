@@ -1,11 +1,16 @@
-void main(){
-  funcPosition(a, b, c, {d, e = 10}){
-    print(a);
-    print(b);
-    print(c);
-    print(d);
-    print(e);
-  }
+import 'package:http/http.dart' as http;
+import 'dart:convert' as convert;
 
-  funcPosition(10, 4, 1, e: 50);
+void main(){
+  getData();
+}
+
+getData(){
+  var res = http.get(Uri.parse('https://jsonplaceholder.typicode.com/todos'));
+  res.then((val){
+    print(val.body);
+  }).onError((e, s){
+    print(e);
+    print(s);
+  });
 }
